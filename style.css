@@ -36,6 +36,7 @@ header{
     font-family: 'Monoton', cursive;
     background-color: var(--nitid-black);
     color: var(--white);
+    margin-bottom: 50px;
 }
 
 
@@ -52,7 +53,7 @@ header ul{
     margin-right: var(--mg-header);
 }
 
-.content{
+.restaurant-content{
     margin: 0 auto;
     position: relative;
     max-width: 800px;
@@ -60,4 +61,16 @@ header ul{
     font-weight: 900;
     background-color: var(--nitid-orange);
     color: black;
+    padding: 40px 80px;
 }
+
+.about-us{
+    display: grid;
+    gap: 20px;
+}
+
+.about-us-content{
+    font-size: 1.5rem;
+    line-height: 35px;
+}
+
