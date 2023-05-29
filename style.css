@@ -11,6 +11,7 @@
     --nitid-orange: rgba(201, 116, 59, 0.8);
     --white: #f9fcfb;
     --mg-header: 100px;
+    --section-spacing: 50px;
 }
 
 html{
@@ -36,7 +37,7 @@ header{
     font-family: 'Monoton', cursive;
     background-color: var(--nitid-black);
     color: var(--white);
-    margin-bottom: 50px;
+    margin-bottom: var(--section-spacing);
 }
 
 
@@ -64,13 +65,15 @@ header ul{
     padding: 40px 80px;
 }
 
-.about-us{
+.about-us, .schedule{
     display: grid;
     gap: 20px;
+    margin-bottom: var(--section-spacing);
 }
 
-.about-us-content{
+.about-us-content, .schedule-content{
     font-size: 1.5rem;
     line-height: 35px;
+    white-space: pre-line;
 }
 
