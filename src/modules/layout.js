@@ -15,6 +15,9 @@ const createHeader = () => {
    ul.childNodes[0].textContent = 'Home';
    ul.childNodes[1].textContent = 'Menu';
    ul.childNodes[2].textContent = 'Contact';
+   ul.childNodes[0].classList.add('home-nav');
+   ul.childNodes[1].classList.add('menu-nav');
+   ul.childNodes[2].classList.add('contact-nav');
    nav.appendChild(ul);
    header.appendChild(logo);
    header.appendChild(nav);
