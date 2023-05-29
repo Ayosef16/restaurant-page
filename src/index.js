@@ -1,6 +1,7 @@
 import createHeader, { createContent } from './modules/layout';
 import createHomePage from './modules/home';
 import createMenu from './modules/menu';
+import createContact from './modules/contact';
 
 createHeader();
 createContent();
@@ -25,5 +26,11 @@ function refreshMenu () {
     createMenu();
 }
 
+function refreshContact () {
+    clearContent();
+    createContact();
+}
+
 home.addEventListener('click', refreshHome);
 menu.addEventListener('click', refreshMenu);
+contact.addEventListener('click', refreshContact);
